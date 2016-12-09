@@ -425,3 +425,9 @@ h6,
   font-size: 30px;
   font-family: 'Oswald', sans-serif;
 }
+#header5-7 .mbr-section-title {
+  color: #000;
+}
+#header5-7 .mbr-section-lead {
+  color: #9c9a9a;
+}
