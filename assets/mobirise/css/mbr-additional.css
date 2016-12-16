@@ -5,15 +5,16 @@
 
 
 
+
 body,
 input,
 textarea,
 .mbr-company .list-group-text {
-  font-family: undefined;
+  font-family: 'Oswald', sans-serif;
 }
 .mbr-footer-content li,
 .mbr-footer .mbr-contacts li {
-  font-family: undefined;
+  font-family: 'Oswald', sans-serif;
 }
 .btn,
 .alert,
