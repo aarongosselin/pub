@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "beeldverhaal.html",
+    "currentPage": "tekeningen.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -23,7 +23,11 @@
     },
     "versionFirst": "3.9.2",
     "uniqCompNum": 19,
-    "versionPublish": "3.12.1"
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": "true",
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-99245450-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>."
   },
   "pages": {
     "index.html": {
@@ -120,7 +124,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/20161208-4-2000x1125-800x450.jpg",
                 "image": "@PROJECT_PATH@/assets/images/20161208-4-2000x1125.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "beeldverhaal 12/2016",
@@ -170,7 +174,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/20161208-2-2000x1125-800x450.jpg",
                 "image": "@PROJECT_PATH@/assets/images/20161208-2-2000x1125.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               }
             ],
             "spacing": 1,
@@ -315,7 +319,7 @@
           },
           "title": "hallo<br><br>",
           "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">home</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">home</a> "
         }
       ]
     },
@@ -619,7 +623,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/20151217-142959-2000x1125-53-2000x1125-61.jpg",
                 "image": "@PROJECT_PATH@/assets/images/20151217-142959-2000x1125-53.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "postkaarten",
@@ -640,6 +644,16 @@
                 "image": "@PROJECT_PATH@/assets/images/20151217-142930-2000x1125-33.jpg",
                 "caption": "Type caption here",
                 "active": false
+              },
+              {
+                "tags": "postkaarten",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20160527-800x1422.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160527.jpg",
+                "caption": "Type caption here",
+                "active": true
               }
             ],
             "spacing": 0,
@@ -906,27 +920,47 @@
                 "thumb": "@PROJECT_PATH@/assets/images/20161208-2000x1125-800x450.jpg",
                 "image": "@PROJECT_PATH@/assets/images/20161208-2000x1125.jpg",
                 "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "2015",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20161208-1-2000x1125-800x450.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20161208-1-2000x1125.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "2015",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20161208-1-2000x1125-800x450.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20161208-1-2000x1125.jpg",
-                "caption": "Type caption here",
                 "active": true
+              },
+              {
+                "tags": "2015",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161208-1-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20161208-1-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "2015",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20160415-1-800x1085.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160415-1.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "2015",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20160522-1-800x1140.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160522-1.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "2015",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20160415-2-800x1035.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160415-2.jpg",
+                "caption": "Type caption here",
+                "active": false
               }
             ],
             "spacing": 0,
