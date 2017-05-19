@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "tekeningen.html",
+    "currentPage": "contact.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.9.2",
-    "uniqCompNum": 19,
+    "uniqCompNum": 21,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "true",
@@ -86,7 +86,7 @@
           },
           "title": "<span style=\"font-weight: normal;\">Aäron</span><br>studentje",
           "text": "Ik weet niet goed wie ik ben of wat ik maak, maar ik heb mezelf al lang geleden gezegd dat dat niet erg is.<br>Als je mij tegen komt laat het me weten.\u001b",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"welkom.html\" data-toolbar=\"-mbrBtnMove\">welkom</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"beeldindex.html\" data-toolbar=\"-mbrBtnMove\">werk</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">contact</a>  "
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"beeldindex.html\" data-toolbar=\"-mbrBtnMove\">werk</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">contact</a>  "
         }
       ]
     },
@@ -141,10 +141,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20161125-190759-2000x1125-77-2000x1125-19.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20161125-190759-2000x1125-77.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161125-2-800x1209.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20161125-2.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "beeldverhaal 12/2016",
@@ -174,7 +174,57 @@
                 "thumb": "@PROJECT_PATH@/assets/images/20161208-2-2000x1125-800x450.jpg",
                 "image": "@PROJECT_PATH@/assets/images/20161208-2-2000x1125.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
+              },
+              {
+                "tags": "beeldverhaal 12/2016",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161125-800x1187.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20161125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "beeldverhaal 12/2016",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161125-1-800x1173.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20161125-1.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "beeldverhaal 12/2016",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161208-800x1158.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20161208.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "beeldverhaal 12/2016",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161208-1-800x1074.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20161208-1.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "beeldverhaal 12/2016",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161208-2-800x1106.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20161208-2.jpg",
+                "caption": "Type caption here",
+                "active": false
               }
             ],
             "spacing": 1,
@@ -255,7 +305,7 @@
             "logo": false,
             "showBrand": false,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -272,7 +322,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"beeldindex.html\">terug</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">home</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">home</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">home</a></li>"
         }
       ]
     },
@@ -283,43 +333,146 @@
       },
       "components": [
         {
-          "_inherit": "header1",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#000",
-              "font-size": "60px"
-            },
-            ".mbr-section-lead": {
-              "color": "#9c9a9a"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "header5",
-          "_anchor": "header5-7",
+          "_name": "form1",
+          "_anchor": "form1-k",
           "_params": {
-            "parallax": true,
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/20161208-162224-2000x1125-44.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
             "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
             "overlay": false,
             "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "left",
+            "overlayColor": "#222",
             "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "showSubTitle": true
           },
-          "title": "hallo<br><br>",
-          "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">home</a> "
+          "title": "CONTACT&nbsp;",
+          "subtitle": "Vragen? Opmerkingen? Zin om te praten? Stuur me gerust een berichtje.",
+          "form": {
+            "action": "aaron-gosselin@hotmail.com",
+            "alerts": {
+              "success": "succesvol verzonden! "
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "naam*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "bericht"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">verzend</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#2b0680"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#2b0680"
+            },
+            ".link, .dropdown-item": {
+              "color": "#2b0680"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#2b0680",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2b0680!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-e",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#2b0680",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">home</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">home</a></li>"
         }
       ]
     },
@@ -570,8 +723,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20151130-115951-2000x1125-30-2000x1125-47.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20151130-115951-2000x1125-30.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20151130-800x1730.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20151130.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -620,10 +773,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20151217-142959-2000x1125-53-2000x1125-61.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20151217-142959-2000x1125-53.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20151217-2000x1125-800x575.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20151217-2000x1125.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "postkaarten",
@@ -653,10 +806,10 @@
                 "thumb": "@PROJECT_PATH@/assets/images/20160527-800x1422.jpg",
                 "image": "@PROJECT_PATH@/assets/images/20160527.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
             ],
-            "spacing": 0,
+            "spacing": "1",
             "showText": false,
             "filter": true,
             "bgColor": "fff",
@@ -734,7 +887,7 @@
             "logo": false,
             "showBrand": false,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -751,7 +904,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"beeldindex.html\">terug</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">home</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">home</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">home</a></li>"
         }
       ]
     },
@@ -864,7 +1017,7 @@
             "logo": false,
             "showBrand": false,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -881,7 +1034,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"beeldindex.html\">terug</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">home</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">home</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">home</a></li>"
         },
         {
           "_tags": [
@@ -890,40 +1043,30 @@
           "_name": "gallery1",
           "_params": {
             "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingBottom": "0",
             "images": [
               {
-                "tags": "2015",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20151206-233955-2000x1125-81-2000x1125-72.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20151206-233955-2000x1125-81.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "2015",
+                "tags": "2017",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/20160214-195058-2000x2064-800x825.jpg",
                 "image": "@PROJECT_PATH@/assets/images/20160214-195058-2000x2064.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "2015",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20161208-2000x1125-800x450.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20161208-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161020-800x1369.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20161020.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
-                "tags": "2015",
+                "tags": "2016",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
@@ -933,7 +1076,7 @@
                 "active": false
               },
               {
-                "tags": "2015",
+                "tags": "2016",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
@@ -943,7 +1086,7 @@
                 "active": false
               },
               {
-                "tags": "2015",
+                "tags": "2016",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
@@ -953,7 +1096,7 @@
                 "active": false
               },
               {
-                "tags": "2015",
+                "tags": "2016",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
@@ -963,7 +1106,7 @@
                 "active": false
               }
             ],
-            "spacing": 0,
+            "spacing": "1",
             "showText": false,
             "filter": true,
             "bgColor": "#FFFFFF",
@@ -1049,7 +1192,7 @@
             "logo": false,
             "showBrand": false,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -1066,7 +1209,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"beeldindex.html\">terug</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">home</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">home</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">home</a></li>"
         },
         {
           "_tags": [
@@ -1082,18 +1225,18 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20151217-195150-2000x1125-96-2000x1125-56.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20151217-195150-2000x1125-96.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20151217-800x1162.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20151217.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "collage",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20151217-195847-2000x1125-57-2000x1125-6.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20151217-195847-2000x1125-57.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20151217-1-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20151217-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1102,8 +1245,18 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20151015-005330-2000x1125-7-2000x1125-64.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20151015-005330-2000x1125-7.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20151015-800x1422.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20151015.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "houtsnede",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2015-03-24-11-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2015-03-24-11.56.33.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1112,8 +1265,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2015-05-26-10-2000x1500-70-2000x1500-90.jpg",
-                "image": "@PROJECT_PATH@/assets/images/2015-05-26-10-2000x1500-70.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2015-05-27-08-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2015-05-27-08.37.18.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1122,17 +1275,7 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2015-05-27-08-2000x1500-51-2000x1500-28.jpg",
-                "image": "@PROJECT_PATH@/assets/images/2015-05-27-08-2000x1500-51.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "bankautomaat",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2015-05-27-08-2000x1500-40-2000x1500-40.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2015-05-27-08-2000x1500-40-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/2015-05-27-08-2000x1500-40.jpg",
                 "caption": "Type caption here",
                 "active": false
@@ -1142,8 +1285,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2015-03-24-11-2000x1500-62-2000x1500-42.jpg",
-                "image": "@PROJECT_PATH@/assets/images/2015-03-24-11-2000x1500-62.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2015-05-26-10-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2015-05-26-10.19.18.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1152,10 +1295,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2015-03-24-11-2000x1500-82-2000x1500-99.jpg",
-                "image": "@PROJECT_PATH@/assets/images/2015-03-24-11-2000x1500-82.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2015-03-24-11-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2015-03-24-11.56.46.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               }
             ],
             "spacing": "2",
