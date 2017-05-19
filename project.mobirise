@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "beeldverhaal.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -37,7 +37,8 @@
         "meta_descr": "aarongosselin,aaron,gosselin,home, tekeningen,luca,schoolof arts,",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 1
       },
       "components": [
         {
@@ -82,18 +83,104 @@
             "contentAlign": "left",
             "showTitle": true,
             "showText": true,
-            "showButtons": true
+            "showButtons": false
           },
           "title": "<span style=\"font-weight: normal;\">Aäron</span><br>studentje",
-          "text": "Ik weet niet goed wie ik ben of wat ik maak, maar ik heb mezelf al lang geleden gezegd dat dat niet erg is.<br>Als je mij tegen komt laat het me weten.",
-          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"beeldindex.html\" data-toolbar=\"-mbrBtnMove\">werk</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"contact.html\" data-toolbar=\"-mbrBtnMove\">contact</a>  "
+          "text": "<span style=\"font-size: 30px; line-height: 1.5;\"><br></span><br><span style=\"font-size: 30px; line-height: 1.5;\">Ik weet niet goed wie ik ben of wat ik maak, maar ik heb mezelf al lang geleden gezegd dat dat niet erg is.</span><br>Als je mij tegen komt laat het me weten.",
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"beeldindex.html\" data-toolbar=\"-mbrBtnMove\">werk</a>    "
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#2b0680"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#2b0680"
+            },
+            ".link, .dropdown-item": {
+              "color": "#2b0680"
+            },
+            ".link": {
+              "font-size": "1.5rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.624rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#2b0680",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2b0680!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-e",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1.5",
+            "fontName": {},
+            "fontColor": "#2b0680",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"beeldindex.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">werk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"contact.html\">contact</a></li>"
         }
       ]
     },
     "beeldverhaal.html": {
       "settings": {
         "meta_descr": "beeldverhaal,aaron,gosselin,aarongosselin,luca,lucaschoolofarts,16/12/2016,2016",
-        "title": "beeldverhaal"
+        "title": "beeldverhaal",
+        "order": 2
       },
       "components": [
         {
@@ -270,13 +357,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1b044f"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#260571!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#2b0680"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
               "color": "#2b0680",
@@ -295,7 +382,7 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-e",
           "_params": {
-            "bgColor": "#2b0680",
+            "bgColor": "#ffffff",
             "fontSize": "1.5",
             "fontName": {},
             "fontColor": "#2b0680",
@@ -322,14 +409,15 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"beeldindex.html\">terug</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">home</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"beeldindex.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">werk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"contact.html\">contact</a></li>"
         }
       ]
     },
     "contact.html": {
       "settings": {
         "title": "contact",
-        "meta_descr": "aarongosselin,contact,gosselin,aaron,luca,lucaschoolofarts,2016,"
+        "meta_descr": "aarongosselin,contact,gosselin,aaron,luca,lucaschoolofarts,2016,",
+        "order": 3
       },
       "components": [
         {
@@ -420,13 +508,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1b044f"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#260571!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#2b0680"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
               "color": "#2b0680",
@@ -445,7 +533,7 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-e",
           "_params": {
-            "bgColor": "#2b0680",
+            "bgColor": "#ffffff",
             "fontSize": "1.5",
             "fontName": {},
             "fontColor": "#2b0680",
@@ -472,14 +560,15 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"beeldindex.html\">terug</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">home</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"beeldindex.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">werk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"contact.html\">contact</a></li>"
         }
       ]
     },
     "beeldindex.html": {
       "settings": {
         "meta_descr": "beeldindex, aarongosselin,aaron,gosselin,tekeningen, luca,lucaschoolofarts,luca,",
-        "title": "beeldindex"
+        "title": "beeldindex",
+        "order": 4
       },
       "components": [
         {
@@ -705,7 +794,8 @@
     "schilderijen.html": {
       "settings": {
         "meta_descr": "schilderij,aaron,gosselin,aarongosselin,luca,lucaschoolofarts,16/12/2016,2016",
-        "title": "schilderijen"
+        "title": "schilderijen",
+        "order": 5
       },
       "components": [
         {
@@ -877,7 +967,7 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-e",
           "_params": {
-            "bgColor": "#2b0680",
+            "bgColor": "#ffffff",
             "fontSize": "1.5",
             "fontName": {},
             "fontColor": "#2b0680",
@@ -904,14 +994,15 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"beeldindex.html\">terug</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">home</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"beeldindex.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">werk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"contact.html\">contact</a></li>"
         }
       ]
     },
     "welkom.html": {
       "settings": {
         "meta_descr": "loop,aaron;gosselin,aarongosselin,16/12/2016, luca, lucaschoolofarts,",
-        "title": "welkom"
+        "title": "welkom",
+        "order": 8
       },
       "components": [
         {
@@ -948,7 +1039,8 @@
     "tekeningen.html": {
       "settings": {
         "meta_descr": "tekeningen,aaron,gosselin,aarongosselin,luca,lucaschoolofarts,16/12/2016,2016,2016",
-        "title": "tekeningen"
+        "title": "tekeningen",
+        "order": 6
       },
       "components": [
         {
@@ -1007,7 +1099,7 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-e",
           "_params": {
-            "bgColor": "#2b0680",
+            "bgColor": "#ffffff",
             "fontSize": "1.5",
             "fontName": {},
             "fontColor": "#2b0680",
@@ -1034,7 +1126,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"beeldindex.html\">terug</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">home</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"beeldindex.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">werk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"contact.html\">contact</a></li>"
         },
         {
           "_tags": [
@@ -1123,7 +1215,8 @@
     "andere.html": {
       "settings": {
         "meta_descr": "schilderijen,beelden,beeldhouwen,foto,tekeningen,aaron,gosselin,aarongosselin,luca,lucaschoolofarts,16/12/2016,2016,2016",
-        "title": "andere"
+        "title": "andere",
+        "order": 7
       },
       "components": [
         {
@@ -1157,13 +1250,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1b044f"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#260571!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#2b0680"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
               "color": "#2b0680",
@@ -1182,7 +1275,7 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-e",
           "_params": {
-            "bgColor": "#2b0680",
+            "bgColor": "#ffffff",
             "fontSize": "1.5",
             "fontName": {},
             "fontColor": "#2b0680",
@@ -1209,7 +1302,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"beeldindex.html\">terug</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">home</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"beeldindex.html\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"index.html\">werk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"contact.html\">contact</a></li>"
         },
         {
           "_tags": [
@@ -1318,7 +1411,8 @@
     "welkom2.html": {
       "settings": {
         "meta_descr": "loop,aaron;gosselin,aarongosselin,16/12/2016, luca, lucaschoolofarts,",
-        "title": "welkom"
+        "title": "welkom",
+        "order": 9
       },
       "components": [
         {
