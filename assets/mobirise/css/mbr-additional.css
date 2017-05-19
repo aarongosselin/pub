@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
 
 
 
@@ -429,65 +430,69 @@ h6,
   font-size: 30px;
   font-family: 'Oswald', sans-serif;
 }
-#ext_menu-e .hide-buttons .nav-btn {
+#header1-0 .mbr-section-lead SPAN {
+  text-align: right;
+}
+#menu-d .hide-buttons .nav-btn {
   display: none !important;
 }
-#ext_menu-e .navbar-caption {
+#menu-d .navbar-caption {
   color: #ffffff;
 }
-#ext_menu-e .navbar-toggler {
+#menu-d .navbar-toggler {
   color: #2b0680;
 }
-#ext_menu-e .close-icon::before,
-#ext_menu-e .close-icon::after {
+#menu-d .close-icon::before,
+#menu-d .close-icon::after {
   background-color: #2b0680;
 }
-#ext_menu-e .link,
-#ext_menu-e .dropdown-item {
+#menu-d .link,
+#menu-d .dropdown-item {
+  color: #2b0680;
+  font-family: 'Open Sans', sans-serif;
+}
+#menu-d .link {
+  font-size: 1.4rem;
+}
+#menu-d .dropdown-item,
+#menu-d .nav-dropdown-sm .link {
+  font-size: 1.516rem;
+}
+#menu-d .link:hover,
+#menu-d .dropdown-item:hover,
+#menu-d .link:focus,
+#menu-d .dropdown-item:focus {
   color: #2b0680;
 }
-#ext_menu-e .link {
-  font-size: 1.5rem;
+#menu-d .link[aria-expanded="true"],
+#menu-d .dropdown-menu {
+  background: #1b044f;
 }
-#ext_menu-e .dropdown-item,
-#ext_menu-e .nav-dropdown-sm .link {
-  font-size: 1.624rem;
+#menu-d .nav-dropdown-sm .link:focus,
+#menu-d .nav-dropdown-sm .link:hover,
+#menu-d .nav-dropdown-sm .dropdown-item:focus,
+#menu-d .nav-dropdown-sm .dropdown-item:hover {
+  background: #260571!important;
 }
-#ext_menu-e .link:hover,
-#ext_menu-e .dropdown-item:hover,
-#ext_menu-e .link:focus,
-#ext_menu-e .dropdown-item:focus {
-  color: #2b0680;
+#menu-d .navbar,
+#menu-d .nav-dropdown-sm,
+#menu-d .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-d .nav-dropdown-sm .dropdown-menu {
+  background: #2b0680;
 }
-#ext_menu-e .link[aria-expanded="true"],
-#ext_menu-e .dropdown-menu {
-  background: #e6e6e6;
-}
-#ext_menu-e .nav-dropdown-sm .link:focus,
-#ext_menu-e .nav-dropdown-sm .link:hover,
-#ext_menu-e .nav-dropdown-sm .dropdown-item:focus,
-#ext_menu-e .nav-dropdown-sm .dropdown-item:hover {
-  background: #f7f7f7!important;
-}
-#ext_menu-e .navbar,
-#ext_menu-e .nav-dropdown-sm,
-#ext_menu-e .nav-dropdown-sm .link[aria-expanded="true"],
-#ext_menu-e .nav-dropdown-sm .dropdown-menu {
-  background: #ffffff;
-}
-#ext_menu-e .bg-color.transparent .link {
+#menu-d .bg-color.transparent .link {
   color: #2b0680;
   transition: none;
 }
-#ext_menu-e .bg-color.transparent.opened .link {
+#menu-d .bg-color.transparent.opened .link {
   transition: color 0.2s ease-in-out;
 }
-#ext_menu-e .bg-color.transparent.opened .link:hover,
-#ext_menu-e .bg-color.transparent.opened .link:focus {
+#menu-d .bg-color.transparent.opened .link:hover,
+#menu-d .bg-color.transparent.opened .link:focus {
   color: #2b0680;
 }
-#ext_menu-e .link[aria-expanded="true"],
-#ext_menu-e .dropdown-item[aria-expanded="true"] {
+#menu-d .link[aria-expanded="true"],
+#menu-d .dropdown-item[aria-expanded="true"] {
   color: #2b0680!important;
 }
 #ext_menu-e .hide-buttons .nav-btn {
@@ -652,19 +657,19 @@ h6,
 }
 #menu-d .link[aria-expanded="true"],
 #menu-d .dropdown-menu {
-  background: #e6e6e6;
+  background: #1b044f;
 }
 #menu-d .nav-dropdown-sm .link:focus,
 #menu-d .nav-dropdown-sm .link:hover,
 #menu-d .nav-dropdown-sm .dropdown-item:focus,
 #menu-d .nav-dropdown-sm .dropdown-item:hover {
-  background: #f7f7f7!important;
+  background: #260571!important;
 }
 #menu-d .navbar,
 #menu-d .nav-dropdown-sm,
 #menu-d .nav-dropdown-sm .link[aria-expanded="true"],
 #menu-d .nav-dropdown-sm .dropdown-menu {
-  background: #ffffff;
+  background: #2b0680;
 }
 #menu-d .bg-color.transparent .link {
   color: #2b0680;
@@ -699,11 +704,11 @@ h6,
   color: #2b0680;
 }
 #ext_menu-e .link {
-  font-size: 0.75rem;
+  font-size: 1.5rem;
 }
 #ext_menu-e .dropdown-item,
 #ext_menu-e .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 1.624rem;
 }
 #ext_menu-e .link:hover,
 #ext_menu-e .dropdown-item:hover,
@@ -760,11 +765,11 @@ h6,
   color: #2b0680;
 }
 #ext_menu-e .link {
-  font-size: 0.75rem;
+  font-size: 1.5rem;
 }
 #ext_menu-e .dropdown-item,
 #ext_menu-e .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 1.624rem;
 }
 #ext_menu-e .link:hover,
 #ext_menu-e .dropdown-item:hover,
