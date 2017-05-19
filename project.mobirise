@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "contact.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -86,7 +86,7 @@
           },
           "title": "<span style=\"font-weight: normal;\">Aäron</span><br>studentje",
           "text": "Ik weet niet goed wie ik ben of wat ik maak, maar ik heb mezelf al lang geleden gezegd dat dat niet erg is.<br>Als je mij tegen komt laat het me weten.\u001b",
-          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"beeldindex.html\" data-toolbar=\"-mbrBtnMove\">werk</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">contact</a>  "
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"beeldindex.html\" data-toolbar=\"-mbrBtnMove\">werk</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"contact.html\" data-toolbar=\"-mbrBtnMove\">contact</a>  "
         }
       ]
     },
