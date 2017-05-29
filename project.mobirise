@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "schilderijen.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.9.2",
-    "uniqCompNum": 26,
+    "uniqCompNum": 28,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "true",
@@ -92,7 +92,7 @@
             "showText": true,
             "showButtons": false
           },
-          "title": "<span style=\"font-weight: normal;\"><br></span><br><br><div style=\"text-align: left;\"><span style=\"letter-spacing: -2px; line-height: 1.1; font-weight: normal;\"><font color=\"#2b0680\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><a href=\"welkom.html\" class=\"text-warning\">Aäron</a></span></div><br>",
+          "title": "<span style=\"font-weight: normal;\"><br></span><br><br><div style=\"text-align: left;\"><span style=\"letter-spacing: -2px; line-height: 1.1; font-weight: normal;\"><font color=\"#2b0680\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font><a href=\"page9.html\" class=\"text-warning\">Aäron</a></span></div><br>",
           "text": "<span style=\"font-size: 30px; line-height: 1.5;\"><br></span><br>Als je mij tegen komt laat het me weten.<br><br>",
           "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"beeldindex.html\" data-toolbar=\"-mbrBtnMove\">werk</a>    "
         },
@@ -935,7 +935,7 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "welkom<br>!vriend!",
+          "title": "proficiat<br>!vriend!",
           "text": "",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"welkom2.html\" data-toolbar=\"-mbrBtnMove\">kijk verder naar deze pagina</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">of ga terug</a>"
         }
@@ -1235,9 +1235,83 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "welkom<br>?vriend?",
+          "title": "proficiat<br>?vriend?",
           "text": "",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"welkom.html\" data-toolbar=\"-mbrBtnMove\">kijk verder naar deze pagina</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">of ga terug</a>"
+        }
+      ]
+    },
+    "page9.html": {
+      "settings": {
+        "title": "Web Maker Title",
+        "meta_descr": "Web Maker Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-q",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">blauw &nbsp;zegt geel</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline btn-secondary\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">knop</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">wit is een leugenaar</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">geel is echt</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">wit klopt</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">zwart</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">rood is fout</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">geel is echt</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">wit is een leugenaar</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">blauw</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">wit is een leugenaar</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">geel is echt</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">geel is echt</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">blauw</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">wit iseen leugenaar</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">blauw</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"welkom.html\" data-toolbar=\"-mbrBtnMove\">deze is de juiste&nbsp;</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">geel zegt rood is juist</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">wit is een leugenaar</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">wit is een leugenaar</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">geel is echt</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">wit is een leugenaar</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">wit klopt</a>"
+        }
+      ]
+    },
+    "page10.html": {
+      "settings": {
+        "title": "Web Creator Title",
+        "meta_descr": "Web Creator Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-r",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "fout",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"page9.html\" data-toolbar=\"-mbrBtnMove\">probeer opnieuw</a> "
         }
       ]
     }
